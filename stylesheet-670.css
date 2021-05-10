@@ -1,0 +1,293 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSSのリセット */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+text-decoration: none;
+}
+
+/*widthにpaddingとborderを含む*/
+* {
+  box-sizing:border-box;
+}
+
+/*メディアエクリ*/
+@media all and (max-width: 670px) {
+
+/*以下本文*/
+
+@font-face {
+  font-family: "Six-Hands-Chalk";
+  src: url("../font/Six-Hands-Chalk.ttf") format("truetype");
+}
+
+/*ヘッダー*/
+header {
+width:100%;
+height: 50px;
+position:fixed;
+top:0px;
+z-index: 10;
+background-color:#050404;
+}
+
+.header-wrapper {
+width:90%;
+margin:0 auto;
+}
+
+.header-left {
+width:200px;
+height:50px;
+float:left;
+}
+
+.header-right {
+display: none;
+}
+
+.header-right670 {			
+display: none;
+width:20px;
+height:50px;
+float: right;
+font-size: 24px;
+padding-top:15px;
+}
+
+.header-left img {
+width:180px;
+height:25px;
+}
+
+/*top*/
+.top {
+overflow: hidden;
+}
+
+.top-wrapper {
+height: 800px;
+}
+
+.chalk-wrapper {
+margin:100px auto 100px auto;
+width:290px;
+height:145px;
+position: relative;
+}
+
+.name {
+display:none;
+}
+
+.ha-left {
+display:none;
+}
+
+.name670 {
+display: block;
+font-size:40px;
+line-height: 80px;
+position: absolute;
+top:0px;
+left:10px;
+}
+
+.lage {
+font-size:180%;
+}
+
+.ha-right {
+display:none;
+}
+
+.top p {
+width: 90%;
+margin:0 auto;
+padding-top:30px;
+transform: scale(0.95,0.95);
+opacity:0.7;
+font-size:12px;
+font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+transition: transform 0.4s;
+}
+
+.white-chalk {
+width:80px;
+height: 90px;
+top:50px;
+right:-80px;
+animation-name: none;
+}
+
+.pink-chalk {
+position:absolute;
+width:80px;
+height: 90px;
+top:80px;
+left:-20px;
+transition:transform 0.2s;
+}
+
+.orange-chalk {
+position:absolute;
+width: 50px;
+height: 80px;
+left:30px;
+transition:transform 0.2s;
+top:260px;
+}
+
+.meziro {
+width: 203px;
+height: 226px;
+position:absolute;
+bottom:0px;
+right:0px;
+z-index:-5;
+}
+
+/*contents*/
+
+.contents1 {
+display: block;
+text-align: center;
+margin-top:100px;
+}
+
+/*work*/
+
+.work {
+padding-bottom:100px;
+}
+
+.gallery {
+width: 400px;
+height: 380px;
+background-image: url("../sozai/SVG/work back.svg");
+object-fit: cover;
+padding:0px 5px 50px 0px;
+margin:0 auto;
+text-align: center;
+position: relative;
+overflow: hidden;
+margin:0 auto;
+}
+
+.gallery img {
+width: 300px;
+height: 300px;
+object-fit: cover;
+}
+
+/*profile*/
+.profile-wrapper {
+width:90%;
+margin:0 auto;
+}
+
+.profile-wrapper img {
+width: 300px;
+height: 283px;
+}
+
+.profile {
+width:90%;
+margin:0 auto;
+}
+
+.profile h2 {
+padding:50px;
+font-size:45px;
+}
+
+.paper-box {
+width:100%;
+text-align:center;
+}
+
+.paper {
+width:300px;
+margin: 0 auto;
+position:relative;
+}
+
+.paper-text {
+position:absolute;
+top:60px;
+left:35px;
+color:#2C1000;
+text-align:left;
+font-size:18px;
+font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+}
+
+.jou {
+padding-bottom:10px;
+}
+
+.ge {
+text-align: center;
+}
+
+.ge h4 {
+color:white;
+background-color: #2C1000;
+}
+
+.insta {
+color:#2C1000;
+font-size:40px;
+}
+
+.fa {
+margin-right:10px;
+}
+
+/*oder*/
+
+.contents2 {
+margin-top:100px;
+margin-bottom:100px;
+}
+
+.order {
+display: block;
+justify-content: center;
+width: 100%;
+margin:0 auto;
+}
+
+.order p {
+padding:50px;
+font-family: YuGothic, "Yu Gothic medium", "Hiragino Sans", Meiryo, "sans-serif";
+color:white;
+opacity:0.6;
+}
+
+.order-left {
+font-size:16px;
+text-align: center;
+}
+
+.order-right {
+line-height: 20px;
+font-size:16px;
+}
+
+.order-wrapper h2 {
+padding:50px 0px 10px 0px;
+font-size:45px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+
+}
