@@ -84,7 +84,7 @@ transform: translateX(-1000);
 }
   
 #close i {
-  padding-right:30px;
+  margin-right:50px;
 }
 
 .show {
