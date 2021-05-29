@@ -82,6 +82,10 @@ transform: translateX(-1000);
   top: 22px;
   padding-right:30px;
 }
+  
+#close i {
+  padding-right:30px;
+}
 
 .show {
   display: block;
