@@ -287,11 +287,6 @@ position: absolute;
   transform-origin: 50% 50%;
 }
 
-.white-chalk:hover {
-transform: rotate(-0.02turn);
-transition:transform 0.4s;
-}
-
 .name {
 font-size:60px;
 letter-spacing: 5px;
@@ -344,21 +339,11 @@ left:60px;
 transition:transform 0.2s;
 }
 
-.pink-chalk:hover {
-transform: rotate(0.04turn);
-transition:transform 0.4s;
-}
-
 .orange-chalk {
 position:absolute;
 left:220px;
 transition:transform 0.2s;
 bottom:300px;
-}
-
-.orange-chalk:hover {
-transform: rotate(0.04turn);
-transition:transform 0.4s;
 }
 
 .white-chalk2 {
