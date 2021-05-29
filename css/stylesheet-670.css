@@ -135,17 +135,22 @@ transform: translateY(300px);
 }
 
 .pink-chalk {
-transform:translate(-150px,-80px);
+left:-30px;
+top: 0px;
 }
 
 .orange-chalk {
-transform:translate(-250px,-100px);
+left: 40px;
 }
 
 .white-chalk2 {
   display: block;
   overflow-x: hidden;
   transform: translate(320px,-900px);
+}
+
+.meziro {
+  bottom:-300px;
 }
 
 /* work&profile */
@@ -164,7 +169,7 @@ transform:translate(-250px,-100px);
 .gallery {
 width: 250px;
 height: 250px;
-transform: translateX(-30px);
+left: -30px;
 }
 
 .gallery img {
@@ -215,17 +220,16 @@ animation: gallery 23s ease-in-out 0s infinite normal;}
   width:300px;
   margin: 0 auto;
   position:relative;
-  transform: translateX(-60px);
   }
 
 .profile img {
   width:300px;
   height:300px;
+  transform: translateX(-50px);
 }
 
 .paper-text {
-  top:50px;
-  left:50px;
+  transform: translateX(-50px);
   color:#2C1000;
   text-align:left;
   font-size:18px;
