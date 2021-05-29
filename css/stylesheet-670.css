@@ -80,7 +80,7 @@ transform: translateX(-1000);
   font-size: 25px;
   position: absolute;
   top: 22px;
-  right: 50px;
+  padding-right:30px;
 }
 
 .show {
